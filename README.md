@@ -75,7 +75,7 @@ Information Retrieval:
 - All outputs are formatted for readability, in well formatted tables with descriptive column names.
 
 ### Installation Script
-- An `install.sh` script is available with necessary dependencies and set up a systemd service to monitor and log activities.
+- An `installation.sh` script is available with necessary dependencies and set up a systemd service to monitor and log activities.
 - Continuous monitoring mode is implemented with logging to a file, ensuring log rotation and management.
 Help and Documentation:
 - A help flag -h or --help guide is implemenetd to provide usage instructions for the program.
@@ -95,7 +95,7 @@ DevOpsFetch is a bash-based system information retrieval and monitoring tool des
 1. Clone this repository
 
    ```ssh
-   git clone https://github.com/yourusername/devopsfetch.git
+   git clone https://github.com/reganmatics/DevopsFetch.git
    ```
    ```
    cd devopsfetch
@@ -103,10 +103,10 @@ DevOpsFetch is a bash-based system information retrieval and monitoring tool des
 
 2. Run the installation script with root privileges:
    ```ssh
-   chmod +x install.sh
+   chmod +x installation.sh
    ```
    ```
-   sudo ./install.sh
+   sudo ./installation.sh
    ```
    This will install the necessary dependencies, set up the `devopsfetch` script, and create a systemd service for continuous monitoring.
 
