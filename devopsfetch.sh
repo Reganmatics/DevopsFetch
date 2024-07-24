@@ -1,8 +1,6 @@
 #!/bin/bash
 
-# devopsfetch.sh
-
-# 1.0 Function to display all active ports
+# Function to display all active ports
 show_active_ports() {
   echo "Active Ports       Services"
   echo "----------------------------"
@@ -19,7 +17,7 @@ show_active_ports() {
   fi
 }
 
-# 1.1 Function to display port info
+# Function to display port info
 show_port_info() {
     port=$1
     process=$(lsof -i :$port -sTCP:LISTEN -t)
